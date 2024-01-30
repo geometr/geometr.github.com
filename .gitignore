@@ -97,3 +97,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Custom
+geometr.github.com.iml
+misc.xml
+modules.xml
+vcs.xml
+
+
