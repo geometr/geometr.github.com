@@ -35,7 +35,7 @@
           $data = substr($data, $first);
           $first = strpos($data, ',');
           $data = str_replace('up','Server uptime: ', $data);
-          echo $data?>
+          echo $data;?>
         </footer>
       </div> 
     </div>
