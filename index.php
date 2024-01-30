@@ -30,12 +30,6 @@
                src="i/factorio-steam.jpg" width="163"/>
         </section>
         <footer>
-          <?php $data = shell_exec('uptime');
-          $first = strpos($data,'up');
-          $data = substr($data, $first);
-          $first = strpos($data, ',');
-          $data = str_replace('up','Server uptime: ', $data);
-          echo $data;?>
         </footer>
       </div> 
     </div>
